@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/react': ^1.0.0
+  '@nanostores/persistent': ^0.6.0
   '@nanostores/react': ^0.3.0
   '@types/react': ^18.0.17
   astro: ^1.0.1
@@ -11,6 +12,7 @@ specifiers:
   react-dom: ^18.0.0
 
 dependencies:
+  '@nanostores/persistent': 0.6.0_nanostores@0.6.0
   '@nanostores/react': 0.3.0_resngft2y545aodfc4fe35fzvu
   nanostores: 0.6.0
   pocketbase: 0.4.0
@@ -433,6 +435,15 @@ packages:
   /@ljharb/has-package-exports-patterns/0.0.2:
     resolution: {integrity: sha512-4/RWEeXDO6bocPONheFe6gX/oQdP/bEpv0oL4HqjPP5DCenBSt0mHgahppY49N0CpsaqffdwPq+TlX9CYOq2Dw==}
     dev: true
+
+  /@nanostores/persistent/0.6.0_nanostores@0.6.0:
+    resolution: {integrity: sha512-7Vjy3QG/LtWrlwJVOL+wLODhRQeyiH/mFCJQsuO2MUzxPtzdUYlTbVC6zzD75i1b3JgmHRYQVxQecc0ad4FUVA==}
+    engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
+    peerDependencies:
+      nanostores: ^0.6.0
+    dependencies:
+      nanostores: 0.6.0
+    dev: false
 
   /@nanostores/react/0.3.0_resngft2y545aodfc4fe35fzvu:
     resolution: {integrity: sha512-gf2vRS2kGxLzLAF20BlUeFxMtBVEHaErk2XQ1YYnTAPtuesBD2nB1ndAOOinL2mSS2zxyQ4jtW3uljvbsGNuIQ==}
