@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@astrojs/react": "^1.0.0",
+    "@astrojs/tailwind": "^1.0.0",
     "@types/react": "^18.0.17",
     "astro": "^1.0.1",
     "react": "^18.0.0",
